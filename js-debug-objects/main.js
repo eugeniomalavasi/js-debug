@@ -64,10 +64,12 @@ const cars = [
     },
 ];
 
-const gasolineCars = cars.filter( (auto) >= auto.type === 'benzina');
+const gasolineCars = cars.filter( (auto) => {
+    return auto.type === 'benzina'
+});
 
 const dieselCars = cars.filter( (auto) => {
-    auto.type === 'diesel';
+    return auto.type === 'diesel';
 });
 
 const otherCars = cars.filter( (auto) => {
@@ -84,3 +86,11 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+
+// RISPOSTA
+// 1) 
+// 2)   - alla riga 59 manca una ,
+    //  - riga 67 arrow function va scritto così => e mancano le paretesi graffe
+    //  - manca il return a riga 68 e 72
+    //  - negli oggetti benzina e diesel NON sono sempre scritti ugualmente, alle volte hanno la prima lettera maiuscola
+    //  - return auto.type !== 'benzina' && auto.type !== 'diesel';

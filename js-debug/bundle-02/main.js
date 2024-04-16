@@ -99,7 +99,7 @@ function checkAccessImproved() {
         } else {
             console.log('Accesso negato!');
         }
-    }
+    }}
     checkAccessImproved();
 // RISPOSTA
 // 1) funzione che controlla se email input è presente in un array di email. 
