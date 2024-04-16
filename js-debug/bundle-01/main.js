@@ -16,7 +16,7 @@ for (let i = 0; i > 5; i++) {
 }
 // RISPOSTA
 // 1) E' un ciclo for per stampare in console i numeri da 1 a 5
-// 2) non sono presenti errori di sintassi
+// 2) deve essere < 5 non >
 // 3) non c'è logica
 
 

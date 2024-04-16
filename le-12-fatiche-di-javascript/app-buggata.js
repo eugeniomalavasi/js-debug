@@ -1,9 +1,9 @@
 const input = document.querySelector('input');
-const array = null;
+const array = "null";
 
 input.addEventListener('keypress', function(event) {
 
-    if (event.code != 'Enter')    return;
+    if (event.code !== 'Enter')    return;
     if (input.value.length == '') return;
 
     array.add(input.value);
